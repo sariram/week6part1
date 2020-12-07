@@ -1,60 +1,43 @@
-html {
-  font-size: 30px;}
-
-@media (min-width: 300px) {
-  html {
-    font-size: 20px; } }
+.card-deck .card {
+  min-width: 500x; }
 
 body {
-  padding-top: 5rem;
-  width: 635px;
+  padding-top: 2rem;
+  width: 638px;
   margin: 0 auto; }
-
-a.text-dark:focus, a.text-dark:hover {
-  color: #00b2c4 !important; }
 
 .full-img {
   position: relative;
   display: block;
-  width: 800px;
-  height: 600px; }
+  width: 700px;
+  height: 700px; }
 
 .displayed-img {
   position: relative;
   display: block;
-  width: 800px;
-  height: 600px; }
+  width: 700px;
+  height: 700px; }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 800px;
-  height: 600px;
-  background-color: rgba(0, 0, 0, 0); }
+  width: 700px;
+  height: 700px; }
 
 button {
   border: 0;
-  background: rgb(255 255 255);
+  background: rgba(200, 200, 200, 0.6);
   text-shadow: .5px .5px .5px black;
-  border: 1px solid black;
+  border: 5px solid white;
   position: absolute;
   cursor: pointer;
-  top: 10px;
-  left: 10px; }
+  top: 15px;
+  left: 15px; }
 
 .thumb-bar img {
   display: block;
-  width: 40%;
+  width: 19%;
   float: left;
   cursor: pointer;
-  height: 300px; }
-
-.container {
-    max-width: 500px; }
-
-.pricing-header {
-    max-width: 900px; }
-
-.card-deck .card {
-    min-width: 300px; }
+  height: 200px;}
